@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding To-Do List</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title text-center">Wedding To-Do List</h1>
+                <!-- Static to-do items -->
+                <ul id="static-todos" class="list-group">
+                    <li class="list-group-item">Buy flowers</li>
+                    <li class="list-group-item">Finalize guest list</li>
+                    <li class="list-group-item">Choose wedding venue</li>
+                    <li class="list-group-item">Order wedding cake</li>
+                </ul>
+                <!-- Input and button for adding new to-do items -->
+                <div class="input-group mb-3">
+                    <input type="text" id="new-todo" class="form-control" placeholder="Enter a new to-do">
+                    <div class="input-group-append">
+                        <button id="add-todo" class="btn btn-primary">Add</button>
+                    </div>
+                </div>
+                <!-- Dynamic to-do items -->
+                <ul id="todo-list" class="list-group">
+                    <!-- New to-do items will be added here dynamically -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
